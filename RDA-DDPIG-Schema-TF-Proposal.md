@@ -4,7 +4,7 @@
 
 ## Research Schemas: Using schema.org for research data discoverability and accessibility
 
-> :notebook:
+> :notebook: _Google Doc comments_
 >
 > **_Rafael C Jimenez_**: I think we should focus on improving discovery (findability) and IMHO also accessibility
 >
@@ -13,25 +13,25 @@ When we clarify about the discoverability (or findability), we can then come out
 
 The wide use of [schema.org](http://schema.org) vocabularies to add structured metadata in web pages for use by commercial search engines has attracted the attention of the data management community as a possible mechanism to leverage the robust commercial search engines like Google, Yahoo, Bing etc. to facilitate discovery and access to scientific data. Various projects have been exploring this approach, including the [US NSF EarthCube p418 project](http://geodex.org/), [Google's Dataset Recommendations](https://developers.google.com/search/docs/data-types/dataset), [BioSchemas](http://bioschemas.org), [Force11 DCIP](https://www.force11.org/group/dcip/eg4repository), [Research Data Australia](https://researchdata.ands.org.au/), [DataCite](https://blog.datacite.org/schema-org-register-dois/), [Harvard Dataverse](https://dataverse.org/blog/latest-dataverse-update-adds-support-schemaorg), NASA’s Distributed Active Archive Center (DAAC) Infrastructure, EOSCpilot,  *[add other projects here]*.  Since the origins of the schema.org vocabulary have largely been driven by commercial business use cases, and a loosely governed process for adding and defining vocabulary, there are gaps and deficiencies in the vocabulary that make its application for science data problematic.
 
-> :notebook:
+> :notebook: _Google Doc comments_
 >
 > **_Andrea Perego_**: This statement does not completely apply to the data-related subset of [schema.org](http://schema.org), which is instead based on the W3C Data Catalog vocabulary (DCAT) - see the ack section at the end of [Schema Dataset](https://schema.org/Dataset).
 >
 > **_Byron Cochrane_**: I agree with this statement as written. Working with the Open Geospatial Consortium on the Environmental Linked Features Interoperability Experiment, we have found Schema. org useful but only at the broad consumer level. It does not well support specialist. For that we had to turn to other ontologies
 >
-> **_Andrea Perego_**: +bcochrane@linz.govt.nz , I also agree that [schema.org](http://schema.org) is very generic, and it does not cover (domain-)specific data aspects. My comment was more on the first sentence: "_Since the origins of the schema.org vocabulary have largely been driven by commercial business use cases_". As I said, this does not apply to the dataset-related subset of schema.org, because it is basically a schema.org porting of DCAT.
+> **_Andrea Perego_**: @byronCochrane, I also agree that [schema.org](http://schema.org) is very generic, and it does not cover (domain-)specific data aspects. My comment was more on the first sentence: "_Since the origins of the schema.org vocabulary have largely been driven by commercial business use cases_". As I said, this does not apply to the dataset-related subset of schema.org, because it is basically a schema.org porting of DCAT.
 >
 > **_Lewis John Mcgibbney_**: Further, I would suggest that at least one example is given which identifies a shortcoming as applies to science data.
 
 The proposed RDA task group within the Data Discovery Paradigms Interest Group would bring together practitioners who are working with schema.org vocabularies to document scientific data.
 
-> :notebook:
+> :notebook: _Google Doc comments_
 >
 > **_Rafael C Jimenez_**: I do not think this group should focus on documenting all scientific data types. We should focus on common and generic types across research disciplines (eg dataset, study, ...) and leave the specific scientific types (volcanoes, proteins, ...) to specific scientific domains (earth science, life sciences, ...).
 
 RDA provides an excellent forum for this work because of the wide variety of science domains participating in the RDA community.
 
-> :notebook:
+> :notebook: _Google Doc comments_
 >
 > **_Rafael C Jimenez_**: I agree. I think RDA is in a good position to start and lead this initiative. However, in my opinion, this initiative should not live in the long term as a task within a group within RDA. I think an effort like this deserves to be an independent initiative similar to Bioschemas.
 >
@@ -39,13 +39,13 @@ RDA provides an excellent forum for this work because of the wide variety of sci
 
 The task group could identify problems with the use of schema.org vocabularies, and make recommendations for solutions, including both 'best practice' recommendations for use of existing vocabulary, as well as formulating and promoting recommendations for vocabulary extensions through the schema.org process.
 
-> :notebook:
+> :notebook: _Google Doc comments_
 >
 > **_Rafael C Jimenez_**: I agree but I hope we can come up with a more concrete proposal. I think to succeed we should have a focused scope and set of well-defined priorities.
 
 Task group work could be organized via a [GitHub wiki and issue tracker](https://github.com/RDA-DDP/Schema.org-for-Research-Data) for online participation, with regular telecons for discussion.
 
-> :notebook:
+> :notebook: _Google Doc comments_
 >
 > **_Rafael C Jimenez_**: I think this is a good start. But we should aim at something similar to what [Bioschemas](http://bioschemas.org) has.
 
@@ -66,7 +66,7 @@ Areas that a task force could provide benefits:
 * Define use-cases for search engines and data providers
 * Review and make recommendations for schema.org  (e.g. missing attribute, controlled values)
 
-> :notebook:
+> :notebook: _Google Doc comments_
 >
 > **_Amanda Xu_**: If Date is used, a list of controlled values for dateType might be useful, e.g. Accepted, Copyrighted, Collected, Created, Issued, Submitted, Updated, Available, Valid, Other
 >
@@ -76,14 +76,14 @@ Areas that a task force could provide benefits:
 
 * Recommend practices for better descriptions and metadata semantics (e.g. what is a 'modified date')
 
-> :notebook:
+> :notebook: _Google Doc comments_
 >
 > **_Rafael C Jimenez_**: for this we should engage as well with other RDA groups like [RDA Metadata IG](https://rd-alliance.org/groups/metadata-ig.html)
 
 * Provide practical guidance for including / publishing schema.org (e.g., where should it go, how can repos support it, how can data centers reduce the effort required)
 * Provide recommendations for more community-specific metadata.
 
-> :notebook:
+> :notebook: _Google Doc comments_
 >
 > **_Rafael C Jimenez_**: I think this should be out of scope. We should support community-specific metadata efforts but not provide recommendations for community-specific metadata. This group should focus on what it is common across sciences not about what is specific.
 >
@@ -91,7 +91,7 @@ Areas that a task force could provide benefits:
 
 * Engage with W3C DCAT, which is doing a revision cycle;  let's engage from the RDA community perspective
 
-> :notebook:
+> :notebook: _Google Doc comments_
 >
 > **_Rafael C Jimenez_**: There are many standards describing many different data types. DCAT is just one of the many standards describing datasets and data catalogues. We should align with DCAT and other standards. We should also be open to other types beyond datasets. Cross-walks across existing standards and reusability of properties should be one of the goals of this effort.
 >
@@ -264,7 +264,7 @@ New TF title "Research Schemas: Using schema.org for research data discoverabili
 
   Create / Identify a list of generic discipline-agnostic entries from schema.org, and identify the properties that would be minimally  suggested for users / data providers (minimal suggested properties could be provided by existing RDA recommendation taking into consideration the original context of those recommendations vs our interest in discoverability and accessibility).
 
-> :notebook:
+> :notebook: _Google Doc comments_
 >
 > **_Rafael C Jimenez_**: Jennie Larkin made a good point about the connections among types. I think besides to identify (prioritise) the Research Schemas types, we should define and prioritise relationships among types. For instance for us in Bioschemas in data resources is important to define DataCatalog, DataSet and DataRecord but also make the connections among them. We could see something similar with other types like investigation, study, assay, ...
 >
