@@ -4,65 +4,39 @@
 
 ## Research Schemas: Using schema.org for research data discoverability and accessibility
 
-<p class="callout info">
-**_Rafael C Jimenez_**: I think we should focus on improving discovery (findability) and IMHO also accessibility
-**_Mingfang Wu_**: Yes, I totally agree. We are doing this ([schema.org](https://schema.org/) markup) for the purpose of making data more discoverable and accessible. We need to clarify what the "discoverable" means - to be indexed and searched by Google data search tool, to have improved search ranking from Google data search tool (or something equivalent), to achieve more interoperability with other data repositories, or something else...?
+> :notebook:
+> **_Rafael C Jimenez_**: I think we should focus on improving discovery (findability) and IMHO also accessibility
+> **_Mingfang Wu_**: Yes, I totally agree. We are doing this ([schema.org](https://schema.org/) markup) for the purpose of making data more discoverable and accessible. We need to clarify what the "discoverable" means - to be indexed and searched by Google data search tool, to have improved search ranking from Google data search tool (or something equivalent), to achieve more interoperability with other data repositories, or something else...?
 When we clarify about the discoverability (or findability), we can then come out methods to measure/compare improvement.
-</p>
-<p class="callout success">A success message</p>
-<p class="callout warning">A warning message</p>
-<p class="callout danger">A danger message</p>
 
 The wide use of [schema.org](http://schema.org) vocabularies to add structured metadata in web pages for use by commercial search engines has attracted the attention of the data management community as a possible mechanism to leverage the robust commercial search engines like Google, Yahoo, Bing etc. to facilitate discovery and access to scientific data. Various projects have been exploring this approach, including the [US NSF EarthCube p418 project](http://geodex.org/), [Google's Dataset Recommendations](https://developers.google.com/search/docs/data-types/dataset), [BioSchemas](http://bioschemas.org), [Force11 DCIP](https://www.force11.org/group/dcip/eg4repository), [Research Data Australia](https://researchdata.ands.org.au/), [DataCite](https://blog.datacite.org/schema-org-register-dois/), [Harvard Dataverse](https://dataverse.org/blog/latest-dataverse-update-adds-support-schemaorg), NASA’s Distributed Active Archive Center (DAAC) Infrastructure, EOSCpilot,  *[add other projects here]*.  Since the origins of the schema.org vocabulary have largely been driven by commercial business use cases, and a loosely governed process for adding and defining vocabulary, there are gaps and deficiencies in the vocabulary that make its application for science data problematic.
 
-<p class="callout info">
-**_Andrea Perego_**: This statement does not completely apply to the data-related subset of [schema.org](http://schema.org), which is instead based on the W3C Data Catalog vocabulary (DCAT) - see the ack section at the end of [Schema Dataset](https://schema.org/Dataset).
-**_Byron Cochrane_**: I agree with this statement as written. Working with the Open Geospatial Consortium on the Environmental Linked Features Interoperability Experiment, we have found Schema. org useful but only at the broad consumer level. It does not well support specialist. For that we had to turn to other ontologies
-**_Andrea Perego_**: +bcochrane@linz.govt.nz , I also agree that [schema.org](http://schema.org) is very generic, and it does not cover (domain-)specific data aspects. My comment was more on the first sentence: "_Since the origins of the schema.org vocabulary have largely been driven by commercial business use cases_". As I said, this does not apply to the dataset-related subset of schema.org, because it is basically a schema.org porting of DCAT.
-**_Lewis John Mcgibbney_**: Further, I would suggest that at least one example is given which identifies a shortcoming as applies to science data.
-</p>
-<p class="callout success">A success message</p>
-<p class="callout warning">A warning message</p>
-<p class="callout danger">A danger message</p>
-
+> :notebook:
+> **_Andrea Perego_**: This statement does not completely apply to the data-related subset of [schema.org](http://schema.org), which is instead based on the W3C Data Catalog vocabulary (DCAT) - see the ack section at the end of [Schema Dataset](https://schema.org/Dataset).
+> **_Byron Cochrane_**: I agree with this statement as written. Working with the Open Geospatial Consortium on the Environmental Linked Features Interoperability Experiment, we have found Schema. org useful but only at the broad consumer level. It does not well support specialist. For that we had to turn to other ontologies
+> **_Andrea Perego_**: +bcochrane@linz.govt.nz , I also agree that [schema.org](http://schema.org) is very generic, and it does not cover (domain-)specific data aspects. My comment was more on the first sentence: "_Since the origins of the schema.org vocabulary have largely been driven by commercial business use cases_". As I said, this does not apply to the dataset-related subset of schema.org, because it is basically a schema.org porting of DCAT.
+> **_Lewis John Mcgibbney_**: Further, I would suggest that at least one example is given which identifies a shortcoming as applies to science data.
 
 The proposed RDA task group within the Data Discovery Paradigms Interest Group would bring together practitioners who are working with schema.org vocabularies to document scientific data.
 
-<p class="callout info">
-**_Rafael C Jimenez_**: I do not think this group should focus on documenting all scientific data types. We should focus on common and generic types across research disciplines (eg dataset, study, ...) and leave the specific scientific types (volcanoes, proteins, ...) to specific scientific domains (earth science, life sciences, ...).
-</p>
-<p class="callout success">A success message</p>
-<p class="callout warning">A warning message</p>
-<p class="callout danger">A danger message</p>
+> :notebook:
+> **_Rafael C Jimenez_**: I do not think this group should focus on documenting all scientific data types. We should focus on common and generic types across research disciplines (eg dataset, study, ...) and leave the specific scientific types (volcanoes, proteins, ...) to specific scientific domains (earth science, life sciences, ...).
 
 RDA provides an excellent forum for this work because of the wide variety of science domains participating in the RDA community.
 
-<p class="callout info">
-**_Rafael C Jimenez_**: I agree. I think RDA is in a good position to start and lead this initiative. However, in my opinion, this initiative should not live in the long term as a task within a group within RDA. I think an effort like this deserves to be an independent initiative similar to Bioschemas.
-**_Mingfang Wu_**: Yes, the intention is to have a task force (say for half a year) working on a clearly defined scope and writing a case statement for a working group.
-</p>
-<p class="callout success">A success message</p>
-<p class="callout warning">A warning message</p>
-<p class="callout danger">A danger message</p>
-
+> :notebook:
+> **_Rafael C Jimenez_**: I agree. I think RDA is in a good position to start and lead this initiative. However, in my opinion, this initiative should not live in the long term as a task within a group within RDA. I think an effort like this deserves to be an independent initiative similar to Bioschemas.
+> **_Mingfang Wu_**: Yes, the intention is to have a task force (say for half a year) working on a clearly defined scope and writing a case statement for a working group.
 
 The task group could identify problems with the use of schema.org vocabularies, and make recommendations for solutions, including both 'best practice' recommendations for use of existing vocabulary, as well as formulating and promoting recommendations for vocabulary extensions through the schema.org process.
 
-<p class="callout info">
-**_Rafael C Jimenez_**: I agree but I hope we can come up with a more concrete proposal. I think to succeed we should have a focused scope and set of well-defined priorities.
-</p>
-<p class="callout success">A success message</p>
-<p class="callout warning">A warning message</p>
-<p class="callout danger">A danger message</p>
+> :notebook:
+> **_Rafael C Jimenez_**: I agree but I hope we can come up with a more concrete proposal. I think to succeed we should have a focused scope and set of well-defined priorities.
 
 Task group work could be organized via a [GitHub wiki and issue tracker](https://github.com/RDA-DDP/Schema.org-for-Research-Data) for online participation, with regular telecons for discussion.
 
-<p class="callout info">
-**_Rafael C Jimenez_**: I think this is a good start. But we should aim at something similar to what [Bioschemas](http://bioschemas.org) has.
-</p>
-<p class="callout success">A success message</p>
-<p class="callout warning">A warning message</p>
-<p class="callout danger">A danger message</p>
+> :notebook:
+> **_Rafael C Jimenez_**: I think this is a good start. But we should aim at something similar to what [Bioschemas](http://bioschemas.org) has.
 
 Some process for adopting recommendations to promote to the community would have to be developed; the goal would be to minimize the administrative overhead and focus on documented, demonstrably workable solutions.
 
@@ -81,46 +55,29 @@ Areas that a task force could provide benefits:
 * Define use-cases for search engines and data providers
 * Review and make recommendations for schema.org  (e.g. missing attribute, controlled values)
 
-<p class="callout info">
-**_Amanda Xu_**: If Date is used, a list of controlled values for dateType might be useful, e.g. Accepted, Copyrighted, Collected, Created, Issued, Submitted, Updated, Available, Valid, Other
-**_Amanda Xu_**: Identifier type is important, e.g. DOI
-**_Amanda Xu_**: relationType is important, e.g. isSupplementTo, isSupplementedBy, etc.
-</p>
-<p class="callout success">A success message</p>
-<p class="callout warning">A warning message</p>
-<p class="callout danger">A danger message</p>
+> :notebook:
+> **_Amanda Xu_**: If Date is used, a list of controlled values for dateType might be useful, e.g. Accepted, Copyrighted, Collected, Created, Issued, Submitted, Updated, Available, Valid, Other
+> **_Amanda Xu_**: Identifier type is important, e.g. DOI
+> **_Amanda Xu_**: relationType is important, e.g. isSupplementTo, isSupplementedBy, etc.
 
 * Recommend practices for better descriptions and metadata semantics (e.g. what is a 'modified date')
 
-<p class="callout info">
-**_Rafael C Jimenez_**: for this we should engage as well with other RDA groups like [RDA Metadata IG](https://rd-alliance.org/groups/metadata-ig.html)
-</p>
-<p class="callout success">A success message</p>
-<p class="callout warning">A warning message</p>
-<p class="callout danger">A danger message</p>
+> :notebook:
+> **_Rafael C Jimenez_**: for this we should engage as well with other RDA groups like [RDA Metadata IG](https://rd-alliance.org/groups/metadata-ig.html)
 
 * Provide practical guidance for including / publishing schema.org (e.g., where should it go, how can repos support it, how can data centers reduce the effort required)
 * Provide recommendations for more community-specific metadata.
 
-<p class="callout info">
-**_Rafael C Jimenez_**: I think this should be out of scope. We should support community-specific metadata efforts but not provide recommendations for community-specific metadata. This group should focus on what it is common across sciences not about what is specific.
-**_Nick Juty_**: agree - there could be countless communities, which would make this impractical.
-</p>
-<p class="callout success">A success message</p>
-<p class="callout warning">A warning message</p>
-<p class="callout danger">A danger message</p>
+> :notebook:
+> **_Rafael C Jimenez_**: I think this should be out of scope. We should support community-specific metadata efforts but not provide recommendations for community-specific metadata. This group should focus on what it is common across sciences not about what is specific.
+> **_Nick Juty_**: agree - there could be countless communities, which would make this impractical.
 
 * Engage with W3C DCAT, which is doing a revision cycle;  let's engage from the RDA community perspective
 
-<p class="callout info">
-**_Rafael C Jimenez_**: There are many standards describing many different data types. DCAT is just one of the many standards describing datasets and data catalogues. We should align with DCAT and other standards. We should also be open to other types beyond datasets. Cross-walks across existing standards and reusability of properties should be one of the goals of this effort.
-**_Mingfang Wu_**: I think perhaps this could be first low hanging fruit activity - to have crosswalks from several representative standards (e.g. DCAT, Geonetwork, DDI, etc) to schema.org (or vice versa), find common gaps and also gaps specific to a discipline, engage with schema.org community and web search engine providers (e.g. Google) and discuss how common gaps and specific gaps should be handled.
-**_Mingfang Wu_**: Those participating projects as listed in the first paragraph may already have a crosswalk. We can collect these crosswalks and analyse gaps.
-</p>
-<p class="callout success">A success message</p>
-<p class="callout warning">A warning message</p>
-<p class="callout danger">A danger message</p>
-
+> :notebook:
+> **_Rafael C Jimenez_**: There are many standards describing many different data types. DCAT is just one of the many standards describing datasets and data catalogues. We should align with DCAT and other standards. We should also be open to other types beyond datasets. Cross-walks across existing standards and reusability of properties should be one of the goals of this effort.
+> **_Mingfang Wu_**: I think perhaps this could be first low hanging fruit activity - to have crosswalks from several representative standards (e.g. DCAT, Geonetwork, DDI, etc) to schema.org (or vice versa), find common gaps and also gaps specific to a discipline, engage with schema.org community and web search engine providers (e.g. Google) and discuss how common gaps and specific gaps should be handled.
+> **_Mingfang Wu_**: Those participating projects as listed in the first paragraph may already have a crosswalk. We can collect these crosswalks and analyse gaps.
 
 A list of goals and objectives on this group provided by Rafael Jimenez is the following:
 
@@ -287,15 +244,11 @@ New TF title "Research Schemas: Using schema.org for research data discoverabili
 
   Create / Identify a list of generic discipline-agnostic entries from schema.org, and identify the properties that would be minimally  suggested for users / data providers (minimal suggested properties could be provided by existing RDA recommendation taking into consideration the original context of those recommendations vs our interest in discoverability and accessibility).
 
-<p class="callout info">
-**_Rafael C Jimenez_**: Jennie Larkin made a good point about the connections among types. I think besides to identify (prioritise) the Research Schemas types, we should define and prioritise relationships among types. For instance for us in Bioschemas in data resources is important to define DataCatalog, DataSet and DataRecord but also make the connections among them. We could see something similar with other types like investigation, study, assay, ...
-**_Mingfang Wu_**: Could this be an outcome of the objective #3? For example, when we map our repository schema (RIF-CS), we find many relations (e.g. between data and software, between data and data services, and between data and data creators/researchers, etc) could not be mapped to schema.org.
-However, we need consider where the relationships (really a web of knowledge graph) would be best used for - for improving search ranking, browsability, sparksql like query, or others.
-If take google data search as an example, would google treats relationships between types similar to links between web pages, and use PageRank link algorithm to improve search?
-</p>
-<p class="callout success">A success message</p>
-<p class="callout warning">A warning message</p>
-<p class="callout danger">A danger message</p>
+> :notebook:
+> **_Rafael C Jimenez_**: Jennie Larkin made a good point about the connections among types. I think besides to identify (prioritise) the Research Schemas types, we should define and prioritise relationships among types. For instance for us in Bioschemas in data resources is important to define DataCatalog, DataSet and DataRecord but also make the connections among them. We could see something similar with other types like investigation, study, assay, ...
+> **_Mingfang Wu_**: Could this be an outcome of the objective #3? For example, when we map our repository schema (RIF-CS), we find many relations (e.g. between data and software, between data and data services, and between data and data creators/researchers, etc) could not be mapped to schema.org.
+> However, we need consider where the relationships (really a web of knowledge graph) would be best used for - for improving search ranking, browsability, sparksql like query, or others.
+> If take google data search as an example, would google treats relationships between types similar to links between web pages, and use PageRank link algorithm to improve search?
 
     1. Adam Shepherd
     2. Alasdair J G Gray
